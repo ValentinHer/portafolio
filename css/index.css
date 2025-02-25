@@ -1,0 +1,19 @@
+#root {
+    margin: 0;
+}
+
+.navbar {
+    margin: 0;
+    display: flex;
+    background-color: #2C2C2C;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.navbar-itemContenedor {
+    display: flex;
+}
+
+.navbar-itemContenedor-item {
+    margin-inline: 1em;
+}
