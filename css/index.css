@@ -304,7 +304,7 @@ body {
 .certificaciones-itemContenedor-infoContenedor {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 4px;
 }
 
 .certificaciones-itemContenedor-infoContenedor-titulo {
@@ -321,6 +321,32 @@ body {
 }
 
 .certificaciones-itemContenedor-texto-lista {
+    padding-left: 30px;
+}
+
+.estudios {
+    padding: 24px 24px 0 24px;
+    background-color: var(--dark-color);
+    color: var(--tertiary-color);
+}
+
+.estudios-titulo {
+    font-size: 1rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.estudios-infoContenedor {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.estudios-infoContenedor-titulo {
+    font-size: 0.85rem;
+}
+
+.estudios-infoContenedor-texto {
     padding-left: 30px;
 }
 
