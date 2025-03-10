@@ -123,8 +123,9 @@ body {
 
 .proyectos {
     background-color: var(--secondary-color);
-    padding: 24px;
-    padding-bottom: 24px;
+    /* padding: 24px; */
+    padding: 24px 24px 0 24px;  
+    /* padding-bottom: 24px; */
 }
 
 .proyectos-titulo {
@@ -180,7 +181,8 @@ body {
 
 .tecnologias {
     background-image: linear-gradient(to bottom, #2c2c2c, #1e1e1e);
-    padding: 24px;
+    padding: 24px 24px 0 24px;   
+    /* padding: 24px; */
 }
 
 .tecnologias-titulo {
@@ -268,13 +270,21 @@ body {
 
 
 .certificaciones {
-    padding: 24px;
+    padding: 24px 24px 0 24px;
     background-color: var(--dark-color);
     color: var(--tertiary-color);
 }
 
 .certificaciones-titulo {
+    font-size: 1rem;
     color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.certificaciones-itemContenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .certificaciones-itemContenedor-imgContenedor {
@@ -282,12 +292,36 @@ body {
     justify-content: center;
     min-width: 320px;
     min-height: 220px;
+    overflow: hidden;
     border-radius: 8px;
 }
 
 .certificaciones-itemContenedor-imgContenedor-img {
     width: 100%;
     object-fit: cover;
+}
+
+.certificaciones-itemContenedor-infoContenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.certificaciones-itemContenedor-infoContenedor-titulo {
+    font-size: 0.90rem;
+}
+
+.certificaciones-itemContenedor-infoContenedor-fecha {
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.certificaciones-itemContenedor-texto {
+    font-weight: 500;
+}
+
+.certificaciones-itemContenedor-texto-lista {
+    padding-left: 30px;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
